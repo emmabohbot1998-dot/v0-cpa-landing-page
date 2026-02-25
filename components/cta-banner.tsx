@@ -18,7 +18,7 @@ export function CtaBanner() {
             className="bg-card text-foreground hover:bg-card/90 px-8 text-base font-semibold"
           >
             <a href="#contact">
-              Book Your Free Consultation
+              Send Inquiry
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>

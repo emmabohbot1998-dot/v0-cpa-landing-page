@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
@@ -67,14 +67,6 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="tel:+13105550100"
-              className="flex items-center gap-2 text-sm font-medium text-foreground"
-              onClick={() => setMobileOpen(false)}
-            >
-              <Phone className="h-4 w-4" />
-              (310) 555-0100
-            </a>
             <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
               <a href="#contact" onClick={() => setMobileOpen(false)}>Send Inquiry</a>
             </Button>

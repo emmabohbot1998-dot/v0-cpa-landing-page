@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Phone } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   return (
@@ -20,7 +20,7 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          We help real estate investors, developers, and business owners make smarter financial decisions with expert accounting, tax strategy, and CFO advisory services — based in Los Angeles, serving nationwide.
+          We help business owners make smarter financial decisions with expert accounting, tax strategy, and CFO advisory services — based in Los Angeles, serving nationwide.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -30,21 +30,11 @@ export function Hero() {
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base"
           >
             <a href="#contact">
-              Book a Free Consultation
+              Send Inquiry
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
-          <Button
-            asChild
-            variant="outline"
-            size="lg"
-            className="border-border text-foreground hover:bg-secondary px-8 text-base"
-          >
-            <a href="tel:+13105550100">
-              <Phone className="mr-2 h-4 w-4" />
-              (310) 555-0100
-            </a>
-          </Button>
+
         </div>
       </div>
     </section>
