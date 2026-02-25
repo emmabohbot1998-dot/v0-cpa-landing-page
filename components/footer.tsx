@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail, MapPin } from "lucide-react"
 
 export function Footer() {
@@ -8,8 +9,17 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <Link href="/" className="font-serif text-lg text-primary-foreground">
-              Lenny Bohbot, CPA, APC
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/images/logo.png"
+                alt="Lenny Bohbot, CPA, APC logo"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-contain brightness-0 invert"
+              />
+              <span className="font-serif text-lg text-primary-foreground">
+                Lenny Bohbot, CPA, APC
+              </span>
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-primary-foreground/60">
               Proactive Tax Strategy. Data-Driven Financial Analysis. Long-Term Growth.
