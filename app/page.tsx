@@ -13,8 +13,8 @@ export default function Page() {
     <>
       <Header />
       <main>
-        <CtaBanner />
         <Hero />
+        <CtaBanner />
         <About />
         <Services />
         <WhoWeServe />

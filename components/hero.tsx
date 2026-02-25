@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
-
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-card pt-32 pb-24 lg:pt-40 lg:pb-32">
@@ -20,24 +17,6 @@ export function Hero() {
           <br />
           Long-Term Growth.
         </h1>
-
-        <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          Are you ready to take control of your finances?
-        </p>
-
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button
-            asChild
-            size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base"
-          >
-            <a href="#contact">
-              Send Inquiry
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </a>
-          </Button>
-
-        </div>
       </div>
     </section>
   )
