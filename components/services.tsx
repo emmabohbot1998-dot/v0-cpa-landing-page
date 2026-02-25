@@ -9,181 +9,101 @@ import {
   ClipboardCheck,
   ShieldCheck,
   Hammer,
+  Calculator,
 } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
 
-const specializedSolutions = [
+const services = [
   {
     icon: BookOpen,
     title: "Monthly Bookkeeping",
-    tagline: "Your books, reconciled and ready — month after month.",
-    items: [
-      "Sales tax reporting and filing",
-      "Monthly financial statement preparation",
-      "General ledger maintenance",
-      "Accounts payable and receivable management",
-      "Bank and credit card reconciliations",
-    ],
+    description:
+      "Sales tax reporting, monthly financial statements, general ledger maintenance, AP/AR management, and bank reconciliations. Your books — reconciled and ready, month after month.",
   },
   {
     icon: Building2,
     title: "Property Management Accounting",
-    tagline: "Rent rolls, owner statements, and expenses — accurately tracked.",
-    items: [
-      "1099 preparation for contractors",
-      "Trust accounting, track income and expense by property",
-      "Maintenance and repair categorization",
-      "Owner distribution calculations",
-      "Property expense tracking",
-      "Tenant rent roll management",
-    ],
+    description:
+      "Trust accounting, tenant rent roll management, owner distribution calculations, 1099 preparation, property expense tracking, and maintenance categorization.",
   },
   {
     icon: Hammer,
-    title: "House Flippers",
-    tagline:
-      "Track reno costs, profit margins, and timelines for every project.",
-    items: [
-      "Timeline and budget monitoring",
-      "Profit margin analysis",
-      "Material expense categorization",
-      "Contractor and vendor management",
-      "Project-based cost tracking",
-    ],
+    title: "House Flipper Accounting",
+    description:
+      "Project-based cost tracking, contractor and vendor management, material expense categorization, profit margin analysis, and timeline and budget monitoring.",
   },
   {
     icon: TrendingUp,
     title: "CFO Advisory",
-    tagline: "Forecasts and strategy without a full-time hire.",
-    items: [
-      "Process implementation",
-      "Strategic planning support",
-      "KPI tracking and reporting",
-      "Budget planning and variance analysis",
-      "Cash flow forecasting",
-      "Monthly financial analysis",
-    ],
-  },
-]
-
-const additionalServices = [
-  {
-    icon: Receipt,
-    title: "Catch-Up & Cleanup",
-    description: "Behind on bookkeeping? We'll get you current — fast.",
+    description:
+      "Cash flow forecasting, monthly financial analysis, budget planning and variance analysis, KPI tracking, strategic planning support, and process implementation.",
   },
   {
-    icon: FileText,
-    title: "Invoicing, AP/AR & Expense Management",
-    description: "Invoice out, pay bills on time, stay cash-flow positive.",
+    icon: ShieldCheck,
+    title: "Tax Preparation & Compliance",
+    description:
+      "Proactive tax strategy for businesses and individuals. 1099 filing, federal and state returns, and year-round planning to minimize your liability.",
   },
   {
     icon: BarChart3,
     title: "Financial Reporting",
-    description: "See what matters — profit, tailored for your need.",
+    description:
+      "Custom financial reports tailored to your business. See what matters — profitability by property, project, or entity — with clear, actionable insights.",
+  },
+  {
+    icon: Receipt,
+    title: "Catch-Up & Cleanup",
+    description:
+      "Behind on your books? We will get you current — fast. Backlog reconciliation, reclassification, and a clean starting point going forward.",
   },
   {
     icon: Home,
-    title: "Landlords",
-    description: "Rental income and expense by property.",
+    title: "Landlord Accounting",
+    description:
+      "Rental income and expense tracking by property. Lease management, depreciation schedules, and reporting built for residential and commercial landlords.",
   },
   {
     icon: ClipboardCheck,
     title: "Year-End & Audit Prep",
-    description: "Audit-ready packs that save everyone time.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Compliance & Tax Preparation",
-    description: "1099 filing, tax returns for businesses and individuals.",
+    description:
+      "Audit-ready document packages, year-end adjustments, and financial statement compilations that save everyone time and reduce stress.",
   },
 ]
 
 export function Services() {
   return (
-    <section id="services" className="py-24 lg:py-32">
+    <section id="services" className="bg-secondary py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent">
-            Specialized Solutions for Your Industry
+          <p className="text-xs font-semibold uppercase tracking-widest text-accent">
+            Services
           </p>
-          <h2 className="mt-3 font-serif text-3xl text-foreground md:text-5xl text-balance">
-            Tailored Accounting for Real Estate
+          <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl lg:text-5xl text-balance">
+            Accounting Solutions Built for Real Estate
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            We understand the unique accounting challenges of different real
-            estate business types and provide tailored solutions that fit your
-            specific needs.
+            From day-to-day bookkeeping to high-level financial strategy, we provide the specialized expertise your real estate business needs.
           </p>
         </div>
 
-        {/* Specialized Solutions - detailed cards */}
-        <div className="mt-16 grid gap-6 md:grid-cols-2">
-          {specializedSolutions.map((service) => (
-            <Card
+        {/* 3-column grid */}
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
+            <div
               key={service.title}
-              className="group border-border bg-card transition-all hover:border-accent/30 hover:shadow-lg"
+              className="group rounded-2xl border border-border bg-card p-7 shadow-sm transition-all hover:border-accent/30 hover:shadow-lg"
             >
-              <CardContent className="p-8">
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
-                  <service.icon className="h-6 w-6 text-accent" />
-                </div>
-                <h3 className="font-serif text-xl text-card-foreground">
-                  {service.title}
-                </h3>
-                <p className="mt-2 text-sm text-muted-foreground">
-                  {service.tagline}
-                </p>
-                <ul className="mt-4 space-y-2">
-                  {service.items.map((item) => (
-                    <li
-                      key={item}
-                      className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground"
-                    >
-                      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/60" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        {/* Additional Services */}
-        <div className="mt-24">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent">
-              Comprehensive Solutions
-            </p>
-            <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl text-balance">
-              Services That Amplify Success
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              From foundational bookkeeping to strategic financial guidance, we
-              provide the expertise your business needs to flourish and prosper.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {additionalServices.map((service) => (
-              <div
-                key={service.title}
-                className="rounded-xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:shadow-md"
-              >
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
-                  <service.icon className="h-5 w-5 text-accent" />
-                </div>
-                <h3 className="font-serif text-lg text-card-foreground">
-                  {service.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {service.description}
-                </p>
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/5">
+                <service.icon className="h-6 w-6 text-primary" />
               </div>
-            ))}
-          </div>
+              <h3 className="text-base font-semibold text-foreground">
+                {service.title}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                {service.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

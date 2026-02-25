@@ -1,41 +1,36 @@
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Phone } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden pt-16">
-      {/* Background image */}
-      <Image
-        src="/images/hero-real-estate.jpg"
-        alt="Modern real estate development in Los Angeles"
-        fill
-        className="object-cover"
-        priority
-      />
+    <section className="relative overflow-hidden bg-card pt-32 pb-24 lg:pt-40 lg:pb-32">
+      {/* Subtle decorative element */}
+      <div className="absolute top-0 right-0 -z-0 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
+      <div className="absolute bottom-0 left-0 -z-0 h-64 w-64 rounded-full bg-accent/5 blur-3xl" />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-primary/70" />
-
-      {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
-        <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground/70">
-          Los Angeles &middot; Now Accepting New Clients
+        <p className="mb-6 inline-block rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          Now Accepting New Clients
         </p>
-        <h1 className="font-serif text-4xl leading-tight text-primary-foreground md:text-6xl lg:text-7xl text-balance">
-          Elevate Your Financial Success
+
+        <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
+          Proactive Tax Strategy.{" "}
+          <span className="text-accent">Data-Driven Financial Analysis.</span>{" "}
+          Long-Term Growth.
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">
-          Expert bookkeeping and accounting that transforms chaos into clarity, empowering your real estate business to reach new heights of prosperity.
+
+        <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+          We help real estate investors, developers, and business owners make smarter financial decisions with expert accounting, tax strategy, and CFO advisory services — based in Los Angeles, serving nationwide.
         </p>
+
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
             asChild
             size="lg"
-            className="bg-accent text-accent-foreground hover:bg-accent/90 px-8"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base"
           >
             <a href="#contact">
-              Schedule a Consultation
+              Book a Free Consultation
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
@@ -43,9 +38,12 @@ export function Hero() {
             asChild
             variant="outline"
             size="lg"
-            className="border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:text-primary-foreground px-8"
+            className="border-border text-foreground hover:bg-secondary px-8 text-base"
           >
-            <a href="#services">Our Services</a>
+            <a href="tel:+13105550100">
+              <Phone className="mr-2 h-4 w-4" />
+              (310) 555-0100
+            </a>
           </Button>
         </div>
       </div>

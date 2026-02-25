@@ -1,48 +1,67 @@
 import Link from "next/link"
+import { Phone, Mail, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-primary py-12">
+    <footer className="border-t border-primary-foreground/10 bg-primary py-12">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* Brand */}
           <div>
             <Link href="/" className="font-serif text-lg text-primary-foreground">
               Lenny Bohbot, CPA, APC
             </Link>
-            <p className="mt-1 text-xs text-primary-foreground/50">
-              Real Estate Accounting & Advisory &middot; Los Angeles, CA &middot; Now Accepting New Clients
+            <p className="mt-2 text-sm leading-relaxed text-primary-foreground/60">
+              Proactive Tax Strategy. Data-Driven Financial Analysis. Long-Term Growth.
             </p>
           </div>
 
-          <nav className="flex flex-wrap justify-center gap-6" aria-label="Footer navigation">
-            <a
-              href="#services"
-              className="text-xs text-primary-foreground/60 transition-colors hover:text-primary-foreground"
-            >
-              Services
-            </a>
-            <a
-              href="#about"
-              className="text-xs text-primary-foreground/60 transition-colors hover:text-primary-foreground"
-            >
-              About
-            </a>
-            <a
-              href="#why-us"
-              className="text-xs text-primary-foreground/60 transition-colors hover:text-primary-foreground"
-            >
-              Why Us
-            </a>
-            <a
-              href="#contact"
-              className="text-xs text-primary-foreground/60 transition-colors hover:text-primary-foreground"
-            >
+          {/* Quick links */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary-foreground/50">
+              Quick Links
+            </p>
+            <nav className="mt-4 flex flex-col gap-3" aria-label="Footer navigation">
+              <a href="#about" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                About
+              </a>
+              <a href="#services" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                Services
+              </a>
+              <a href="#who-we-serve" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                Who We Serve
+              </a>
+              <a href="#contact" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                Contact
+              </a>
+            </nav>
+          </div>
+
+          {/* Contact info */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary-foreground/50">
               Contact
-            </a>
-          </nav>
+            </p>
+            <div className="mt-4 flex flex-col gap-3">
+              <div className="flex items-center gap-3">
+                <MapPin className="h-4 w-4 text-primary-foreground/50" />
+                <span className="text-sm text-primary-foreground/70">
+                  Los Angeles, California
+                </span>
+              </div>
+              <a href="tel:+13105550100" className="flex items-center gap-3 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                <Phone className="h-4 w-4 text-primary-foreground/50" />
+                (310) 555-0100
+              </a>
+              <a href="mailto:info@lennybohbotcpa.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                <Mail className="h-4 w-4 text-primary-foreground/50" />
+                info@lennybohbotcpa.com
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div className="mt-8 border-t border-primary-foreground/10 pt-6 text-center">
+        <div className="mt-10 border-t border-primary-foreground/10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/40">
             &copy; {new Date().getFullYear()} Lenny Bohbot, CPA, APC. All rights reserved.
           </p>
