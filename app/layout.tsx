@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next'
-import { DM_Serif_Display, Inter } from 'next/font/google'
+import { DM_Serif_Text, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _dmSerif = DM_Serif_Display({
+const _dmSerif = DM_Serif_Text({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-serif",

@@ -2,14 +2,12 @@ import {
   BookOpen,
   Building2,
   TrendingUp,
-  FileText,
   Receipt,
   BarChart3,
   Home,
   ClipboardCheck,
   ShieldCheck,
   Hammer,
-  Calculator,
 } from "lucide-react"
 
 const services = [
