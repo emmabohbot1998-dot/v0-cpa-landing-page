@@ -22,7 +22,7 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          We help business owners make smarter financial decisions with expert accounting, tax strategy, and CFO advisory services — based in Los Angeles, serving nationwide.
+          Are you ready to take control of your finances?
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
