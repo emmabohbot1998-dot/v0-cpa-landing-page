@@ -13,9 +13,11 @@ export function Hero() {
           Now Accepting New Clients
         </p>
 
-        <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-          Proactive Tax Strategy.{" "}
-          <span className="text-accent">Data-Driven Financial Analysis.</span>{" "}
+        <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl">
+          Data-Driven Financial Analysis.
+          <br />
+          <span className="text-accent">Proactive Tax Strategy.</span>
+          <br />
           Long-Term Growth.
         </h1>
 

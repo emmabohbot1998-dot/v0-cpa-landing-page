@@ -22,7 +22,11 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-primary-foreground/60">
-              Proactive Tax Strategy. Data-Driven Financial Analysis. Long-Term Growth.
+              Data-Driven Financial Analysis.
+              <br />
+              Proactive Tax Strategy.
+              <br />
+              Long-Term Growth.
             </p>
           </div>
 
