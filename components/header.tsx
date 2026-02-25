@@ -35,7 +35,7 @@ export function Header() {
           ))}
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 px-6">
             <a href="#contact">
-              Book Consultation
+              Send Inquiry
             </a>
           </Button>
         </nav>
@@ -76,7 +76,7 @@ export function Header() {
               (310) 555-0100
             </a>
             <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#contact" onClick={() => setMobileOpen(false)}>Book Consultation</a>
+              <a href="#contact" onClick={() => setMobileOpen(false)}>Send Inquiry</a>
             </Button>
           </div>
         </nav>
