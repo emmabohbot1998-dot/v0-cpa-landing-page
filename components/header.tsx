@@ -28,7 +28,7 @@ export function Header() {
             className="h-10 w-10 object-contain"
           />
           <span className="font-serif text-lg tracking-tight text-foreground lg:text-xl">
-            Lenny Bohbot, CPA, APC
+            Lenny Bohbot, CPA <span className="text-sm font-sans font-normal tracking-wide text-muted-foreground">apc</span>
           </span>
         </Link>
 
