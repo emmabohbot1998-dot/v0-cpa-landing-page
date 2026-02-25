@@ -93,10 +93,15 @@ export function ContactForm() {
             <SelectValue placeholder="Select a service" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="fractional-cfo">Fractional CFO Services</SelectItem>
-            <SelectItem value="tax-preparation">Tax Return Preparation & Filings</SelectItem>
-            <SelectItem value="financial-statements">Financial Statement Preparation & Compilations</SelectItem>
-            <SelectItem value="bookkeeping">Bookkeeping</SelectItem>
+            <SelectItem value="bookkeeping">Monthly Bookkeeping</SelectItem>
+            <SelectItem value="property-management">Property Management Accounting</SelectItem>
+            <SelectItem value="house-flippers">House Flippers Accounting</SelectItem>
+            <SelectItem value="cfo-advisory">CFO Advisory</SelectItem>
+            <SelectItem value="catch-up">Catch-Up & Cleanup</SelectItem>
+            <SelectItem value="tax-preparation">Compliance & Tax Preparation</SelectItem>
+            <SelectItem value="financial-reporting">Financial Reporting</SelectItem>
+            <SelectItem value="landlords">Landlord Accounting</SelectItem>
+            <SelectItem value="audit-prep">Year-End & Audit Prep</SelectItem>
             <SelectItem value="other">Other / Multiple Services</SelectItem>
           </SelectContent>
         </Select>

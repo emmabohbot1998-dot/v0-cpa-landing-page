@@ -20,14 +20,13 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground/70">
-          Los Angeles &middot; Real Estate Focused CPA
+          Los Angeles &middot; Now Accepting New Clients
         </p>
         <h1 className="font-serif text-4xl leading-tight text-primary-foreground md:text-6xl lg:text-7xl text-balance">
-          Strategic Financial Guidance for Real Estate
+          Elevate Your Financial Success
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">
-          Expert accounting, tax, and advisory services built exclusively for the real estate industry.
-          From fractional CFO engagements to tax filings, we handle the numbers so you can focus on closing deals.
+          Expert bookkeeping and accounting that transforms chaos into clarity, empowering your real estate business to reach new heights of prosperity.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button

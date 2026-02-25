@@ -15,8 +15,8 @@ const _inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Pinnacle CPA Group | Real Estate Accounting & Advisory | Los Angeles',
-  description: 'Los Angeles CPA firm specializing in real estate accounting. Fractional CFO services, tax preparation, financial statements, and bookkeeping for the real estate industry.',
+  title: 'Lenny Bohbot, CPA, APC | Real Estate Accounting & Advisory | Los Angeles',
+  description: 'Los Angeles CPA firm specializing in real estate accounting. Fractional CFO services, tax preparation, financial statements, bookkeeping, and property management accounting for the real estate industry. Now accepting new clients.',
   icons: {
     icon: [
       {

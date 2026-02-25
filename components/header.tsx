@@ -19,7 +19,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-serif text-xl tracking-tight text-foreground">
-          Pinnacle CPA Group
+          Lenny Bohbot, CPA, APC
         </Link>
 
         {/* Desktop nav */}

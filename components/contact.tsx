@@ -12,10 +12,10 @@ export function Contact() {
               Contact
             </p>
             <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl text-balance">
-              Ready to get started?
+              Ready to elevate your finances?
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Fill out the form and a member of our team will reach out within one business day to discuss your needs.
+              Share your vision with us, and we{"'"}ll craft a personalized roadmap to transform your financial landscape. We typically respond within 24 hours.
             </p>
 
             <div className="mt-10 space-y-6">
@@ -33,7 +33,7 @@ export function Contact() {
                 <div>
                   <p className="text-sm font-medium text-foreground">Email</p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    info@pinnaclecpagroup.com
+                    info@lennybohbotcpa.com
                   </p>
                 </div>
               </div>

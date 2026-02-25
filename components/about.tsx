@@ -1,10 +1,12 @@
-import { Building2, Users, ShieldCheck, MapPin } from "lucide-react"
+import { Building2, Users, ShieldCheck, MapPin, UserPlus } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 const stats = [
   { icon: Building2, value: "Real Estate", label: "Industry Focus" },
-  { icon: Users, value: "Dedicated", label: "Client Partnerships" },
-  { icon: ShieldCheck, value: "CPA", label: "Licensed & Certified" },
+  { icon: ShieldCheck, value: "Licensed CPA", label: "APC Accredited" },
   { icon: MapPin, value: "Los Angeles", label: "Based in LA" },
+  { icon: UserPlus, value: "Accepting", label: "New Clients" },
 ]
 
 export function About() {
@@ -15,17 +17,29 @@ export function About() {
           {/* Left - Copy */}
           <div>
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground/60">
-              About the Firm
+              A Dedicated CPA Partner
             </p>
             <h2 className="mt-3 font-serif text-3xl text-primary-foreground md:text-5xl text-balance">
-              Built for Real Estate. Based in Los Angeles.
+              Meet Your CPA Partner
             </h2>
             <p className="mt-6 text-base leading-relaxed text-primary-foreground/80">
-              Pinnacle CPA Group is a Los Angeles-based accounting firm that works exclusively with real estate professionals. From developers and investors to property managers and brokers, we understand the financial complexities of the industry inside and out.
+              Lenny Bohbot, CPA, APC helps founders, property managers, landlords, house flippers, and small businesses keep clean books, stay compliant, and make confident financial decisions.
             </p>
             <p className="mt-4 text-base leading-relaxed text-primary-foreground/80">
-              Our approach is hands-on and strategic. We don{"'"}t just prepare your returns and balance your books{"—"}we become a trusted financial partner that helps you make smarter decisions, reduce your tax liability, and grow your portfolio with confidence.
+              With a deep understanding of the unique challenges facing growing real estate businesses, I provide personalized accounting solutions that scale with your success. From monthly bookkeeping to strategic financial guidance, I{"'"}m here to ensure your financial foundation is solid and your business thrives.
             </p>
+            <div className="mt-8">
+              <Button
+                asChild
+                size="lg"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 px-8"
+              >
+                <a href="#contact">
+                  Begin Your Journey
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Right - Stats grid */}

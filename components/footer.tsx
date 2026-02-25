@@ -7,10 +7,10 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div>
             <Link href="/" className="font-serif text-lg text-primary-foreground">
-              Pinnacle CPA Group
+              Lenny Bohbot, CPA, APC
             </Link>
             <p className="mt-1 text-xs text-primary-foreground/50">
-              Real Estate Accounting & Advisory &middot; Los Angeles, CA
+              Real Estate Accounting & Advisory &middot; Los Angeles, CA &middot; Now Accepting New Clients
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-primary-foreground/10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/40">
-            &copy; {new Date().getFullYear()} Pinnacle CPA Group. All rights reserved.
+            &copy; {new Date().getFullYear()} Lenny Bohbot, CPA, APC. All rights reserved.
           </p>
         </div>
       </div>
