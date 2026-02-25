@@ -36,8 +36,8 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-foreground">Email</p>
-                  <a href="mailto:info@lennybohbotcpa.com" className="mt-0.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-                    info@lennybohbotcpa.com
+                  <a href="mailto:info@bohbotcpa.com" className="mt-0.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+                    info@bohbotcpa.com
                   </a>
                 </div>
               </div>

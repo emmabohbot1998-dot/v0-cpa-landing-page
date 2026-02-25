@@ -60,9 +60,9 @@ export function Footer() {
                 </span>
               </div>
 
-              <a href="mailto:info@lennybohbotcpa.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+              <a href="mailto:info@bohbotcpa.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
                 <Mail className="h-4 w-4 text-primary-foreground/50" />
-                info@lennybohbotcpa.com
+                info@bohbotcpa.com
               </a>
             </div>
           </div>
