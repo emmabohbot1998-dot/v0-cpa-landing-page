@@ -1,14 +1,12 @@
 import { CheckCircle2 } from "lucide-react"
 
 const reasons = [
-  "Real estate specialization — not a generalist firm",
-  "Proactive tax strategy year-round, not just at filing time",
-  "Data-driven financial analysis and reporting",
-  "Scalable services from bookkeeping to fractional CFO",
-  "Deep understanding of the Los Angeles real estate market",
   "Personalized service — you work directly with your CPA",
-  "Cloud-based, modern technology stack",
+  "Data-driven financial analysis and reporting",
+  "Proactive tax strategy year-round",
   "Transparent, fixed-fee pricing with no surprises",
+  "Scalable services from bookkeeping to fractional CFO",
+  "Expertise on real estate tax matters such as 1031s, Accelerated Depreciation, and Cost Segregation",
 ]
 
 export function WhyUs() {
