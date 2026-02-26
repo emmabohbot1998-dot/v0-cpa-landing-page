@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { DM_Serif_Text, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
 
 const _dmSerif = DM_Serif_Text({
@@ -49,11 +48,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${_dmSerif.variable} ${_inter.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${_dmSerif.variable} ${_inter.variable}`}>
       <body className="font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-          {children}
-        </ThemeProvider>
+        {children}
         <Analytics />
       </body>
     </html>

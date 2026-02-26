@@ -5,7 +5,6 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -26,7 +25,7 @@ export function Header() {
             alt="Lenny Bohbot, CPA, APC logo"
             width={40}
             height={40}
-            className="h-10 w-10 object-contain dark:invert"
+            className="h-10 w-10 object-contain"
           />
           <span className="font-serif text-lg tracking-tight text-foreground lg:text-xl">
             Lenny Bohbot, CPA <span className="text-sm font-sans font-normal tracking-wide text-muted-foreground">apc</span>
@@ -44,7 +43,9 @@ export function Header() {
               {link.label}
             </a>
           ))}
-          <ThemeToggle />
+          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 px-6">
+            <a href="#contact">Contact Us</a>
+          </Button>
         </nav>
 
         {/* Mobile toggle */}
@@ -74,9 +75,9 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-2">
-              <ThemeToggle />
-            </div>
+            <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <a href="#contact" onClick={() => setMobileOpen(false)}>Contact Us</a>
+            </Button>
           </div>
         </nav>
       )}
