@@ -9,9 +9,6 @@ export function CtaBanner() {
           <br />
           Long-Term Growth
         </h2>
-        <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/75">
-          Schedule a free consultation and discover how proactive accounting and tax strategy can transform your real estate business.
-        </p>
       </div>
     </section>
   )
