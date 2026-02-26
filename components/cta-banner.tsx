@@ -3,7 +3,11 @@ export function CtaBanner() {
     <section className="bg-primary py-20 lg:py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <h2 className="font-serif text-3xl text-primary-foreground md:text-4xl lg:text-5xl text-balance">
-          Ready to Take Control of Your Finances?
+          Data-Driven Financial Analysis
+          <br />
+          <span className="text-primary-foreground/70">Proactive Tax Planning</span>
+          <br />
+          Long-Term Growth
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/75">
           Schedule a free consultation and discover how proactive accounting and tax strategy can transform your real estate business.
