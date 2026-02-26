@@ -1,33 +1,24 @@
 import {
   BookOpen,
-  Building2,
   TrendingUp,
   Receipt,
   BarChart3,
-  Home,
   ClipboardCheck,
   ShieldCheck,
-  Hammer,
 } from "lucide-react"
 
 const services = [
   {
-    icon: BookOpen,
-    title: "Monthly Bookkeeping",
+    icon: BarChart3,
+    title: "Financial Reporting",
     description:
-      "Sales tax reporting, monthly financial statements, general ledger maintenance, AP/AR management, and bank reconciliations. Your books — reconciled and ready, month after month.",
+      "Custom financial reports tailored to your business. See what matters — profitability by property, project, or entity — with clear, actionable insights.",
   },
   {
-    icon: Building2,
-    title: "Property Management Accounting",
+    icon: ShieldCheck,
+    title: "Tax Preparation",
     description:
-      "Trust accounting, tenant rent roll management, owner distribution calculations, 1099 preparation, property expense tracking, and maintenance categorization.",
-  },
-  {
-    icon: Hammer,
-    title: "House Flipper Accounting",
-    description:
-      "Project-based cost tracking, contractor and vendor management, material expense categorization, profit margin analysis, and timeline and budget monitoring.",
+      "Proactive tax strategy for businesses and individuals. 1099 filing, federal and state returns, and year-round planning to minimize your liability.",
   },
   {
     icon: TrendingUp,
@@ -36,34 +27,22 @@ const services = [
       "Cash flow forecasting, monthly financial analysis, budget planning and variance analysis, KPI tracking, strategic planning support, and process implementation.",
   },
   {
-    icon: ShieldCheck,
-    title: "Tax Preparation & Compliance",
+    icon: BookOpen,
+    title: "Monthly Bookkeeping",
     description:
-      "Proactive tax strategy for businesses and individuals. 1099 filing, federal and state returns, and year-round planning to minimize your liability.",
+      "Sales tax reporting, monthly financial statements, general ledger maintenance, AP/AR management, and bank reconciliations. Your books — reconciled and ready, month after month.",
   },
   {
-    icon: BarChart3,
-    title: "Financial Reporting",
+    icon: ClipboardCheck,
+    title: "Compliance with Local & State Filings",
     description:
-      "Custom financial reports tailored to your business. See what matters — profitability by property, project, or entity — with clear, actionable insights.",
+      "Stay compliant with all local and state filing requirements. We handle deadlines, documentation, and regulatory reporting so you never miss a beat.",
   },
   {
     icon: Receipt,
     title: "Catch-Up & Cleanup",
     description:
       "Behind on your books? We will get you current — fast. Backlog reconciliation, reclassification, and a clean starting point going forward.",
-  },
-  {
-    icon: Home,
-    title: "Landlord Accounting",
-    description:
-      "Rental income and expense tracking by property. Lease management, depreciation schedules, and reporting built for residential and commercial landlords.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Year-End & Audit Prep",
-    description:
-      "Audit-ready document packages, year-end adjustments, and financial statement compilations that save everyone time and reduce stress.",
   },
 ]
 
