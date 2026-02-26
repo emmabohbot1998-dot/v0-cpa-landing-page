@@ -38,7 +38,7 @@ export function About() {
 
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="rounded-2xl border border-border bg-secondary p-5 text-center">
-                <p className="font-serif text-2xl text-foreground">11+ Years</p>
+                <p className="font-serif text-2xl text-foreground">10+ Years</p>
                 <p className="mt-1 text-xs text-muted-foreground">Experience</p>
               </div>
               <div className="rounded-2xl border border-border bg-secondary p-5 text-center">
