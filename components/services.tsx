@@ -12,7 +12,7 @@ const services = [
     icon: BarChart3,
     title: "Financial Reporting",
     description:
-      "Custom financial reports tailored to your business. See what matters — profitability by property, project, or entity — with clear, actionable insights.",
+      "Custom financial reports tailored to your business. See what matters - profitability by revenue source, project, entity - with clear, actionable insights.",
   },
   {
     icon: ShieldCheck,
