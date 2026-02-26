@@ -14,16 +14,12 @@ export function Hero() {
         </p>
 
         <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-          Data-Driven Financial Analysis.
+          Data-Driven Financial Analysis
           <br />
-          <span className="text-accent">Proactive Tax Planning.</span>
+          <span className="text-accent">Proactive Tax Planning</span>
           <br />
-          Long-Term Growth.
+          Long-Term Growth
         </h1>
-
-        <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          We help business owners make smarter financial decisions with expert accounting, tax strategy, and CFO advisory services — based in Los Angeles, serving nationwide.
-        </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
