@@ -1,42 +1,30 @@
 import {
   Building2,
   Home,
-  Hammer,
   Landmark,
-  Briefcase,
   Store,
 } from "lucide-react"
 
 const audiences = [
   {
+    icon: Store,
+    title: "Small Business Owners",
+    description: "Bookkeeping, payroll support, financial reporting, and tax planning.",
+  },
+  {
     icon: Building2,
+    title: "S Corp Owners",
+    description: "Entity compliance, reasonable compensation analysis, payroll, and tax-efficient distributions.",
+  },
+  {
+    icon: Landmark,
     title: "Real Estate Investors",
     description: "Multi-property portfolios, 1031 exchanges, cost segregation, and entity structuring.",
   },
   {
-    icon: Landmark,
-    title: "Property Managers",
-    description: "Trust accounting, owner statements, rent rolls, and maintenance tracking.",
-  },
-  {
     icon: Home,
-    title: "Landlords",
-    description: "Rental income tracking, depreciation schedules, and property-level reporting.",
-  },
-  {
-    icon: Hammer,
-    title: "House Flippers",
-    description: "Project cost tracking, profit margin analysis, and contractor management.",
-  },
-  {
-    icon: Briefcase,
-    title: "Real Estate Developers",
-    description: "Construction budgets, joint venture accounting, and draw schedules.",
-  },
-  {
-    icon: Store,
-    title: "Small Business Owners",
-    description: "Bookkeeping, payroll support, financial reporting, and tax planning.",
+    title: "Landlords & Property Managers",
+    description: "Rental income tracking, trust accounting, owner statements, depreciation schedules, and property-level reporting.",
   },
 ]
 
