@@ -3,6 +3,8 @@ import {
   Home,
   Landmark,
   Store,
+  Factory,
+  Rocket,
 } from "lucide-react"
 
 const audiences = [
@@ -25,6 +27,16 @@ const audiences = [
     icon: Home,
     title: "Landlords & Property Managers",
     description: "Rental income tracking, trust accounting, owner statements, depreciation schedules, and property-level reporting.",
+  },
+  {
+    icon: Factory,
+    title: "Manufacturing & Merchandising",
+    description: "Inventory accounting, cost of goods sold tracking, supply chain expense management, and margin analysis.",
+  },
+  {
+    icon: Rocket,
+    title: "Start-Ups",
+    description: "Entity formation guidance, cash flow management, investor-ready financials, and scalable accounting systems from day one.",
   },
 ]
 
