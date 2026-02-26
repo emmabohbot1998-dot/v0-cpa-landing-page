@@ -9,14 +9,9 @@ export function Hero() {
       <div className="absolute bottom-0 left-0 -z-0 h-64 w-64 rounded-full bg-accent/5 blur-3xl" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
-        <div className="mb-6 flex items-center justify-center gap-3">
-          <span className="rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            10+ Years Experience
-          </span>
-          <span className="rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            CPA
-          </span>
-        </div>
+        <p className="mb-6 inline-block rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          Now Accepting New Clients
+        </p>
 
         <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
           Data-Driven Financial Analysis.
