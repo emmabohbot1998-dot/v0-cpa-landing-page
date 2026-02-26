@@ -15,7 +15,7 @@ export function Contact() {
               Let{"'"}s Start a Conversation
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Tell us about your business and goals, and we{"'"}ll put together a plan tailored to your needs. Your first consultation is free.
+              Tell us about your business and goals, and we{"'"}ll put together a plan tailored to your needs.
             </p>
 
             <div className="mt-10 space-y-6">
