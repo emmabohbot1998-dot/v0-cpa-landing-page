@@ -50,21 +50,8 @@ export function Services() {
   return (
     <section id="services" className="bg-secondary py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        {/* Header */}
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-widest text-accent">
-            Services
-          </p>
-          <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl lg:text-5xl text-balance">
-            Accounting Solutions Built for Real Estate
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            From day-to-day bookkeeping to high-level financial strategy, we provide the specialized expertise your real estate business needs.
-          </p>
-        </div>
-
         {/* 3-column grid */}
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}
