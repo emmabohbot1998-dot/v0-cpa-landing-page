@@ -24,7 +24,7 @@ export function Hero() {
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base"
           >
             <a href="#contact">
-              Send Inquiry
+              Contact Us
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>

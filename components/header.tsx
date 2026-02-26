@@ -43,11 +43,6 @@ export function Header() {
               {link.label}
             </a>
           ))}
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 px-6">
-            <a href="#contact">
-              Send Inquiry
-            </a>
-          </Button>
         </nav>
 
         {/* Mobile toggle */}
@@ -77,9 +72,7 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#contact" onClick={() => setMobileOpen(false)}>Send Inquiry</a>
-            </Button>
+
           </div>
         </nav>
       )}

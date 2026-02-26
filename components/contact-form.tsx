@@ -124,7 +124,7 @@ export function ContactForm() {
           size="lg"
           className="w-full bg-primary text-primary-foreground hover:bg-primary/90 sm:w-auto px-8"
         >
-          {isSubmitting ? "Sending..." : "Send Inquiry"}
+          {isSubmitting ? "Sending..." : "Contact Us"}
           {!isSubmitting && <Send className="ml-2 h-4 w-4" />}
         </Button>
       </div>
