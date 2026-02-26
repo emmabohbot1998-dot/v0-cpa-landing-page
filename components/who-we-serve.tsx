@@ -40,7 +40,7 @@ export function WhoWeServe() {
             Built for Your Industry
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            We work with real estate professionals and business owners who demand more from their accountant.
+            We work with business owners and professionals who demand more from their accountant.
           </p>
         </div>
 
