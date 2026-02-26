@@ -24,7 +24,7 @@ export function About() {
               About
             </p>
             <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl lg:text-5xl text-balance">
-              A CPA Firm Built for Real Estate
+              A CPA Firm Built for Entrepreneurs
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               Lenny Bohbot, CPA, apc is a Los Angeles based accounting firm helping business owners nationwide make smarter financial decisions through expert accounting, tax planning, and CFO advisory services.
