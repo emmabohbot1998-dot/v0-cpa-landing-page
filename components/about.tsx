@@ -27,13 +27,13 @@ export function About() {
               A CPA Firm Built for Real Estate
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Lenny Bohbot, CPA, APC is a Los Angeles-based accounting firm that specializes in real estate investors, property managers, landlords, house flippers, and small business owners.
+              Lenny Bohbot, CPA, apc is a Los Angeles based accounting firm helping business owners nationwide make smarter financial decisions through expert accounting, tax planning, and CFO advisory services.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
               We go beyond basic compliance. Our proactive approach means we{"'"}re working year-round on your behalf{"—"}identifying tax-saving opportunities, providing data-driven financial analysis, and building strategies that support long-term growth.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Whether you need monthly bookkeeping, fractional CFO guidance, or a partner to help navigate the complexities of real estate taxation, we{"'"}re here to help your business thrive.
+              Whether you need monthly bookkeeping, fractional CFO guidance, or tax services, we{"'"}re here to help your business thrive.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
