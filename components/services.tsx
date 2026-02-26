@@ -50,6 +50,12 @@ export function Services() {
   return (
     <section id="services" className="bg-secondary py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-12 text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-accent">
+            Services
+          </p>
+        </div>
+
         {/* 3-column grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
