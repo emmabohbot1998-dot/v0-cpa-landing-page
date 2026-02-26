@@ -14,8 +14,10 @@ export function Hero() {
         </p>
 
         <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-          Proactive Tax Strategy.{" "}
-          <span className="text-accent">Data-Driven Financial Analysis.</span>{" "}
+          <span className="text-accent">Data-Driven Financial Analysis.</span>
+          <br />
+          Proactive Tax Planning.
+          <br />
           Long-Term Growth.
         </h1>
 
