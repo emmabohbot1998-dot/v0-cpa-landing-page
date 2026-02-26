@@ -5,6 +5,9 @@ import {
   BarChart3,
   ClipboardCheck,
   ShieldCheck,
+  Building,
+  Search,
+  Handshake,
 } from "lucide-react"
 
 const services = [
@@ -43,6 +46,24 @@ const services = [
     title: "Catch-Up & Cleanup",
     description:
       "Behind on your books? We will get you current — fast. Backlog reconciliation, reclassification, and a clean starting point going forward.",
+  },
+  {
+    icon: Building,
+    title: "Business Formation",
+    description:
+      "Entity selection and structuring, LLC and S Corp formation, EIN registration, operating agreements, and setting up your accounting systems from day one.",
+  },
+  {
+    icon: Search,
+    title: "Audit Support",
+    description:
+      "Comprehensive audit preparation, document organization, liaison with auditors, and ongoing support to ensure a smooth and efficient audit process.",
+  },
+  {
+    icon: Handshake,
+    title: "Lender Covenant Compliance",
+    description:
+      "Monitoring and reporting on financial covenants, preparing lender-required financial packages, and ensuring your business stays in compliance with loan agreements.",
   },
 ]
 
