@@ -22,7 +22,7 @@ export function ContactForm() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission — replace with your actual endpoint
+    // Simulate form submission - replace with your actual endpoint
     await new Promise((resolve) => setTimeout(resolve, 1200))
 
     setIsSubmitting(false)

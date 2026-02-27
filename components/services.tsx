@@ -33,7 +33,7 @@ const services = [
     icon: BookOpen,
     title: "Monthly Bookkeeping",
     description:
-      "Sales tax reporting, monthly financial statements, general ledger maintenance, AP/AR management, and bank reconciliations. Your books — reconciled and ready, month after month.",
+      "Sales tax reporting, monthly financial statements, general ledger maintenance, AP/AR management, and bank reconciliations. Your books, reconciled and ready, month after month.",
   },
   {
     icon: ClipboardCheck,
@@ -45,7 +45,7 @@ const services = [
     icon: Receipt,
     title: "Catch-Up & Cleanup",
     description:
-      "Behind on your books? We will get you current — fast. Backlog reconciliation, reclassification, and a clean starting point going forward.",
+      "Behind on your books? We will get you current, fast. Backlog reconciliation, reclassification, and a clean starting point going forward.",
   },
   {
     icon: Building,

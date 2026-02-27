@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react"
 
 const reasons = [
-  "Personalized service — you work directly with your CPA",
+  "Personalized service, you work directly with your CPA",
   "Data-driven financial analysis and reporting",
   "Proactive tax strategy year-round",
   "Transparent, fixed-fee pricing with no surprises",
