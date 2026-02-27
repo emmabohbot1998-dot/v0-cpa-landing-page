@@ -75,12 +75,6 @@ export function Services() {
           <p className="text-xs font-semibold uppercase tracking-widest text-accent">
             Services
           </p>
-          <h2 className="mt-3 font-serif text-3xl text-foreground md:text-4xl lg:text-5xl text-balance">
-            CPA Services
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            What we can do for you
-          </p>
         </div>
 
         {/* 3-column grid */}
