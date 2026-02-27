@@ -14,7 +14,7 @@ export function Hero() {
         </p>
 
         <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-          Ready to Take Control of Your Finances?
+          A CPA Firm Built for Entrepreneurs
         </h1>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
